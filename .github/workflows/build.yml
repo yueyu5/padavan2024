@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        target: [K2P, RM2100]
+        target: [K2P]
         toolchain: [mipsel-linux-musl]
     steps:
       - uses: actions/checkout@v3
